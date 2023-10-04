@@ -1,7 +1,8 @@
 """Main"""
-from collections import OrderedDict
 import os
 import sys
+from collections import OrderedDict
+
 
 def run() -> None:
     """Run main logic"""
