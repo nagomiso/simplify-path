@@ -1,8 +1,9 @@
 """Main"""
 from collections import OrderedDict
 import os
+import sys
 
-def run():
+def run() -> None:
     """Run main logic"""
     simplified_paths: dict[str, bool] = OrderedDict()
     if path := os.getenv("PATH"):
@@ -10,4 +11,4 @@ def run():
             if element in simplified_paths:
                 continue
             simplified_paths[element] = True
-    print(":".join(simplified_paths.keys()))
+    sys.stdout.write(":".join(simplified_paths.keys()))

@@ -1,6 +1,6 @@
 [project]
 name = "simplify-path"
-version = "v0.0"
+version = "v0.0.1"
 description = ""
 authors = [
     {name = "nagomiso", email = "daiseigi.giants+github@gmail.com"},
