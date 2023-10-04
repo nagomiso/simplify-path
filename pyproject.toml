@@ -1,0 +1,14 @@
+[project]
+name = "simplify-path"
+version = "v0.0"
+description = ""
+authors = [
+    {name = "nagomiso", email = "daiseigi.giants+github@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+simplify-path = "simplify_path.main:run"
